@@ -1,3 +1,4 @@
+
 describe( "index.js", () => {
   it( 'should change the text on the page when DOM content has loaded', function () {
     expect( document.querySelector( 'p' )
@@ -14,3 +15,8 @@ describe( "index.js", () => {
   } )
 
 } )
+
+document.addEventListener("DOMContentLoaded", function() {
+  // newText = "JavaScript is so cool. It lets me add text to my page programmatically.' to equal 'This is really cool!"
+  document.getElementById('#text').innerHTML = "JavaScript is so cool. It lets me add text to my page programmatically.' to equal 'This is really cool!";
+  });
