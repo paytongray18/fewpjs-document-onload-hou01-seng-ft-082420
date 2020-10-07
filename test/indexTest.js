@@ -13,10 +13,7 @@ describe( "index.js", () => {
         .textContent )
       .to.equal( "This is really cool!" );
   } )
+  
+  
+} );
 
-} )
-
-document.addEventListener("DOMContentLoaded", function() {
-  // newText = "JavaScript is so cool. It lets me add text to my page programmatically.' to equal 'This is really cool!"
-  document.getElementById('#text').innerHTML = "JavaScript is so cool. It lets me add text to my page programmatically.' to equal 'This is really cool!";
-  });
